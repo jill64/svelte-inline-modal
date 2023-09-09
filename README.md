@@ -1,6 +1,6 @@
 # svelte-inline-modal
 
-[![npm version](https://badge.fury.io/js/@jill64%2Fsvelte-inline-modal.svg)](https://badge.fury.io/js/@jill64%2Fsvelte-inline-modal)
+[Demo](https://jill64.github.io/svelte-inline-modal)
 
 A simple modal component that can be defined on the fly
 
