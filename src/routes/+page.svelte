@@ -25,8 +25,18 @@
       color: #fff;
     }
   }
-  div {
+  button {
     padding: 1rem;
+    border-radius: 100rem;
+    border: 1px solid #aaa;
+    background: inherit;
+    font-size: large;
+    font-weight: bold;
+    color: inherit;
+    cursor: pointer;
+  }
+  div {
+    padding: 1rem 0.5rem;
     background: #fff;
     border-radius: 0.5rem;
   }
