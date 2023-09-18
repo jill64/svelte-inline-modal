@@ -16,7 +16,7 @@ npm i -D @jill64/svelte-inline-modal
 
 ```svelte
 <script>
-  import InlineModal from '@jill64/svelte-inline-modal'
+  import { InlineModal } from '@jill64/svelte-inline-modal'
 </script>
 
 <InlineModal onClose={() => console.log('Modal Closed')} let:open>
