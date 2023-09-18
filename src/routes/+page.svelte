@@ -1,5 +1,5 @@
 <script lang="ts">
-  import InlineModal from '$lib/index.js'
+  import { InlineModal } from '$lib/index.js'
 </script>
 
 <h1>svelte-inline-modal</h1>

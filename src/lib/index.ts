@@ -1,3 +1,1 @@
-import InlineModal from './InlineModal.svelte'
-
-export default InlineModal
+export { default as InlineModal } from './InlineModal.svelte'
