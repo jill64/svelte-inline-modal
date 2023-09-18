@@ -33,6 +33,7 @@
     "dev": "vite dev",
     "build": "vite build && pnpm package",
     "preview": "pnpm build && vite preview",
+    "test": "playwright test",
     "package": "svelte-kit sync && svelte-package && publint",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "format": "prettier --write . --plugin prettier-plugin-svelte .",
@@ -42,6 +43,7 @@
     "svelte": "^4.0.0"
   },
   "devDependencies": {
+    "@playwright/test": "1.38.0",
     "@sveltejs/adapter-static": "2.0.3",
     "@sveltejs/kit": "1.25.0",
     "@sveltejs/package": "2.2.2",
