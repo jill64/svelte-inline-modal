@@ -1,5 +1,7 @@
 # svelte-inline-modal
 
+![github-actions-ci](https://github.com/jill64/svelte-inline-modal/actions/workflows/ci.yml/badge.svg)
+
 [Demo](https://jill64.github.io/svelte-inline-modal)
 
 A simple modal component that can be defined on the fly
