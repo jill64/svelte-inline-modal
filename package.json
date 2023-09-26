@@ -1,6 +1,6 @@
 {
   "name": "@jill64/svelte-inline-modal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple modal component that can be defined on the fly",
   "type": "module",
   "main": "dist/index.js",
