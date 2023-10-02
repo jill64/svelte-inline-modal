@@ -9,7 +9,7 @@ A simple modal component that can be defined on the fly
 ## Install
 
 ```sh
-npm i -D @jill64/svelte-inline-modal
+npm i svelte-inline-modal
 ```
 
 ## Usage
