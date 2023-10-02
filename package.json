@@ -1,6 +1,6 @@
 {
   "name": "svelte-inline-modal",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A simple modal component that can be defined on the fly",
   "type": "module",
   "main": "dist/index.js",
