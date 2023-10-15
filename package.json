@@ -1,6 +1,6 @@
 {
   "name": "svelte-inline-modal",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "A simple modal component that can be defined on the fly",
   "type": "module",
   "main": "dist/index.js",
@@ -35,7 +35,7 @@
     "package": "svelte-kit sync && npx @sveltejs/package && npx publint",
     "check": "svelte-kit sync && npx svelte-check",
     "format": "npx prettier --write . --plugin prettier-plugin-svelte .",
-    "lint": "npx prettier --check . --plugin prettier-plugin-svelte . && npx eslint"
+    "lint": "npx prettier --check . --plugin prettier-plugin-svelte . && npx eslint && npm run check"
   },
   "peerDependencies": {
     "svelte": "^4.0.0"
