@@ -2,7 +2,6 @@
 
 [![npm](https://img.shields.io/npm/v/svelte-inline-modal)](https://npmjs.com/package/svelte-inline-modal)
 [![Deploy](https://github.com/jill64/svelte-inline-modal/actions/workflows/deploy.yml/badge.svg)](https://github.com/jill64/svelte-inline-modal/actions/workflows/deploy.yml)
-[![Integration](https://github.com/jill64/svelte-inline-modal/actions/workflows/integration.yml/badge.svg)](https://github.com/jill64/svelte-inline-modal/actions/workflows/integration.yml)
 
 [Demo](https://jill64.github.io/svelte-inline-modal)
 
