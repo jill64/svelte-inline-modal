@@ -22,6 +22,13 @@
     "type": "git",
     "url": "https://github.com/jill64/svelte-inline-modal.git"
   },
+  "keywords": [
+    "svelte",
+    "inline",
+    "modal",
+    "component",
+    "on-the-fly"
+  ],
   "scripts": {
     "dev": "vite dev",
     "build": "vite build && npm run package",
