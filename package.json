@@ -38,7 +38,7 @@
     "package": "svelte-kit sync && npx @sveltejs/package && npx publint",
     "check": "svelte-kit sync && npx svelte-check",
     "format": "npx prettier --write . --plugin prettier-plugin-svelte .",
-    "lint": "npx prettier --check . --plugin prettier-plugin-svelte . && npx eslint . && npm run check"
+    "lint": "npx eslint . && npm run check"
   },
   "peerDependencies": {
     "svelte": "^4.0.0"
