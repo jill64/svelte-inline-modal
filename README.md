@@ -8,7 +8,7 @@ A simple modal component that can be defined on the fly
 
 <!----- END GHOST DOCS HEADER ----->
 
-[Demo](https://jill64.github.io/svelte-inline-modal)
+## [Demo + Example](https://stackblitz.com/edit/svelte-inline-modal?file=src%2Froutes%2FDemo.svelte)
 
 ## Installation
 
