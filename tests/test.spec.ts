@@ -1,7 +1,7 @@
 import { expect, test } from '@playwright/test'
 
 test('Modal Test', async ({ page }) => {
-  await page.goto('/svelte-inline-modal')
+  await page.goto('/')
 
   await expect(
     page.getByRole('heading', { name: 'svelte-inline-modal' })
