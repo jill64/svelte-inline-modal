@@ -6,10 +6,7 @@
   }
 </script>
 
-<header>
-  <h1>svelte-inline-modal</h1>
-  <a href="https://github.com/jill64/svelte-inline-modal">GitHub</a>
-</header>
+<h1>svelte-inline-modal</h1>
 <InlineModal onClose={onCloseModal} let:open>
   <button on:click={open}>Open</button>
   <div slot="menu" let:close>
@@ -25,17 +22,6 @@
 </InlineModal>
 
 <style>
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-  }
   h2 {
     font-size: 1.5rem;
     font-weight: bold;
@@ -49,13 +35,6 @@
     margin: 0.5rem 0;
     background: inherit;
     color: inherit;
-  }
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
   }
   :global(body) {
     font-family: sans-serif;
