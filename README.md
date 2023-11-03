@@ -16,14 +16,6 @@ npm i svelte-inline-modal
 
 <!----- END GHOST DOCS HEADER ----->
 
-## [Demo + Example](https://stackblitz.com/edit/svelte-inline-modal?file=src%2Froutes%2FDemo.svelte)
-
-## Installation
-
-```sh
-npm i -D svelte-inline-modal
-```
-
 ## Usage
 
 ```svelte
