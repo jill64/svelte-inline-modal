@@ -9,7 +9,9 @@
   "bugs": "https://github.com/jill64/svelte-inline-modal/issues",
   "homepage": "https://github.com/jill64/svelte-inline-modal#readme",
   "files": [
-    "dist"
+    "dist",
+    "!*.test.*",
+    "!*.spec.*"
   ],
   "exports": {
     ".": {
@@ -23,11 +25,9 @@
     "url": "https://github.com/jill64/svelte-inline-modal.git"
   },
   "keywords": [
-    "svelte",
     "inline",
     "modal",
-    "component",
-    "on-the-fly"
+    "svelte"
   ],
   "scripts": {
     "dev": "vite dev",
