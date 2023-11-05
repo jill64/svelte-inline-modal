@@ -27,6 +27,7 @@
   "keywords": [
     "inline",
     "modal",
+    "onthefly",
     "svelte"
   ],
   "scripts": {
