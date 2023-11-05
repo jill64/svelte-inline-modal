@@ -1,7 +1,7 @@
 {
   "name": "svelte-inline-modal",
   "version": "1.0.0",
-  "description": "🪟 A simple modal component that can be defined on the fly",
+  "description": "🪟 Svelte modal on the fly",
   "type": "module",
   "main": "dist/index.js",
   "license": "MIT",
