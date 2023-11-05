@@ -18,6 +18,8 @@ npm i svelte-inline-modal
 
 ## Usage
 
+Unlike most modal libraries that provide a common component at the root, this library deploys the modal in place using the dialog element.
+
 ```svelte
 <script>
   import { InlineModal } from 'svelte-inline-modal'
