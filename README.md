@@ -4,7 +4,7 @@
 
 [![npm-version](https://img.shields.io/npm/v/svelte-inline-modal)](https://npmjs.com/package/svelte-inline-modal) [![npm-license](https://img.shields.io/npm/l/svelte-inline-modal)](https://npmjs.com/package/svelte-inline-modal) [![npm-download-month](https://img.shields.io/npm/dm/svelte-inline-modal)](https://npmjs.com/package/svelte-inline-modal) [![npm-min-size](https://img.shields.io/bundlephobia/min/svelte-inline-modal)](https://npmjs.com/package/svelte-inline-modal) [![ci.yml](https://github.com/jill64/svelte-inline-modal/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/svelte-inline-modal/actions/workflows/ci.yml) [![stackblitz](https://img.shields.io/badge/StackBlitz-svelte--inline--modal-dodgerblue)](https://stackblitz.com/edit/svelte-inline-modal?file=src%2Froutes%2FDemo.svelte)
 
-🪟 Svelte modal on the fly
+🪟 Simple modal on the fly
 
 ## [Demo](https://stackblitz.com/edit/svelte-inline-modal?file=src%2Froutes%2FDemo.svelte)
 
