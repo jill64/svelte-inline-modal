@@ -16,11 +16,10 @@
 </script>
 
 <slot {open} />
+<!-- svelte-ignore a11y-click-events-have-key-events -->
 <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-<dialog bind:this={dialog} on:click|self={close} on:keypress>
-  <div>
-    <slot name="menu" {close} />
-  </div>
+<dialog bind:this={dialog} on:click|self={close}>
+  <slot name="menu" {close} />
 </dialog>
 
 <style>
