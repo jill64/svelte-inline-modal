@@ -8,13 +8,13 @@
 
 ## [Demo](https://stackblitz.com/edit/svelte-inline-modal?file=src%2Froutes%2FDemo.svelte)
 
+<!----- END GHOST DOCS HEADER ----->
+
 ## Installation
 
-```sh
+```bash
 npm i svelte-inline-modal
 ```
-
-<!----- END GHOST DOCS HEADER ----->
 
 ## Usage
 
