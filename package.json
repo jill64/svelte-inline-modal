@@ -5,7 +5,12 @@
   "type": "module",
   "main": "dist/index.js",
   "license": "MIT",
-  "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
+  "author": {
+    "name": "jill64",
+    "email": "143883742+jill64@users.noreply.github.com",
+    "url": "https://github.com/jill64",
+    "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
+  },
   "bugs": "https://github.com/jill64/svelte-inline-modal/issues",
   "homepage": "https://github.com/jill64/svelte-inline-modal#readme",
   "files": [
@@ -22,7 +27,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jill64/svelte-inline-modal.git"
+    "url": "https://github.com/jill64/svelte-inline-modal.git",
+    "image": "https://opengraph.githubassets.com/6c6663bd2117534f45f31fdeca4ac1a095502d09e405c66cf6b84e65c4898d90/jill64/svelte-inline-modal"
   },
   "keywords": [
     "inline",
@@ -57,5 +63,6 @@
     "svelte": "4.2.8",
     "typescript": "5.3.3",
     "vite": "5.0.7"
-  }
+  },
+  "prettier": "@jill64/prettier-config"
 }
