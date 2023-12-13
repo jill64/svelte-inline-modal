@@ -6,9 +6,9 @@
 
 🪟 Simple Modal on the Fly
 
-## [Demo](https://stackblitz.com/edit/svelte-inline-modal?file=src%2Froutes%2FDemo.svelte)
-
 <!----- END GHOST DOCS HEADER ----->
+
+[StackBlitz](https://stackblitz.com/edit/svelte-inline-modal?file=src%2Froutes%2FDemo.svelte)
 
 ## Installation
 
