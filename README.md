@@ -39,3 +39,11 @@ Unlike most modal libraries that provide a common component at the root, this li
   </div>
 </InlineModal>
 ```
+
+<!----- BEGIN GHOST DOCS FOOTER ----->
+
+## License
+
+MIT
+
+<!----- END GHOST DOCS FOOTER ----->
