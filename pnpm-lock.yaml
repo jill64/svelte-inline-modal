@@ -9,8 +9,8 @@ devDependencies:
     specifier: 1.2.11
     version: 1.2.11(svelte@4.2.12)(typescript@5.4.2)
   '@jill64/npm-demo-layout':
-    specifier: 1.0.123
-    version: 1.0.123(@sveltejs/kit@2.5.4)(svelte@4.2.12)
+    specifier: 1.0.125
+    version: 1.0.125(@sveltejs/kit@2.5.4)(svelte@4.2.12)
   '@jill64/playwright-config':
     specifier: 2.2.4
     version: 2.2.4(@playwright/test@1.42.1)
@@ -832,17 +832,17 @@ packages:
       - typescript
     dev: true
 
-  /@jill64/npm-demo-layout@1.0.123(@sveltejs/kit@2.5.4)(svelte@4.2.12):
+  /@jill64/npm-demo-layout@1.0.125(@sveltejs/kit@2.5.4)(svelte@4.2.12):
     resolution:
       {
-        integrity: sha512-Z3knSMEG9mOyaQrEvGSwT19AMfvgppS6S2YN8va4XNz8dToD3h0uVBkZ0rue8OvRFgikiXFsD1cuw5RP3aX1Wg==
+        integrity: sha512-X19/F2gSDECXGawiIbkg7KvZg82p7ltjLUQwxm2WeHc5qM1HN919Pqb/0bW+oZE6ZB0o8MI5if/oR6UWoUz2dQ==
       }
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
     dependencies:
       '@jill64/svelte-dark-theme': 2.3.44(@sveltejs/kit@2.5.4)(svelte@4.2.12)
-      '@jill64/svelte-menu': 1.0.14(svelte@4.2.12)
+      '@jill64/svelte-menu': 1.0.15(svelte@4.2.12)
       '@jill64/svelte-ogp': 1.1.14(@sveltejs/kit@2.5.4)(svelte@4.2.12)
       '@jill64/svelte-sanitize': 1.2.9(svelte@4.2.12)
       '@jill64/svelte-toast': 1.3.23(@sveltejs/kit@2.5.4)(svelte@4.2.12)
@@ -850,7 +850,7 @@ packages:
       svelte: 4.2.12
       svelte-code-copy: 1.0.17(@sveltejs/kit@2.5.4)(svelte@4.2.12)
       svelte-highlight: 7.6.0
-      svelte-highlight-switcher: 1.2.6(svelte-highlight@7.6.0)(svelte@4.2.12)
+      svelte-highlight-switcher: 1.2.7(svelte-highlight@7.6.0)(svelte@4.2.12)
     dev: true
 
   /@jill64/playwright-config@2.2.4(@playwright/test@1.42.1):
@@ -945,10 +945,10 @@ packages:
       svelte: 4.2.12
     dev: true
 
-  /@jill64/svelte-menu@1.0.14(svelte@4.2.12):
+  /@jill64/svelte-menu@1.0.15(svelte@4.2.12):
     resolution:
       {
-        integrity: sha512-XD+SY2X/jBD59TQ6DCoDw0RPB/w5pgOXRzozWWuROnIsJmRBYd1h65FlMNEohkuWFiNNhATWSu439+zkbG37kA==
+        integrity: sha512-k8WMdR0NJy+jdSd+Hi75/4BghSyfBecbT6kLFjtfJwzJigpL0jZeZc6Kqae/TmhRAEZqI5HDxdyMzyB0f+rmmA==
       }
     peerDependencies:
       svelte: ^4.0.0
@@ -3878,10 +3878,10 @@ packages:
       svelte-writable-derived: 3.1.0(svelte@4.2.12)
     dev: true
 
-  /svelte-highlight-switcher@1.2.6(svelte-highlight@7.6.0)(svelte@4.2.12):
+  /svelte-highlight-switcher@1.2.7(svelte-highlight@7.6.0)(svelte@4.2.12):
     resolution:
       {
-        integrity: sha512-ER1Qe+XKbW9Kv3UIoYWu9ve7ha/M6xE5qBvjsnJmMTl9b5jzRb7osphq/U2a8QTQjOLhkgP9F/skHQJR8i8gTA==
+        integrity: sha512-hvvZ4vyo67wkpHfpX/Sd56cfLRwIaXrXQgKKdT0WyS42SnrKFAJH+vXKWX7rkAMmZhTOiCnPTUnZOK17Ir8ldQ==
       }
     peerDependencies:
       svelte: ^4.0.0
