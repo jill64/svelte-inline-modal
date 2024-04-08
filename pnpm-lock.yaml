@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@jill64/eslint-config-svelte':
-    specifier: 1.2.14
-    version: 1.2.14(svelte@4.2.12)(typescript@5.4.4)
+    specifier: 1.2.15
+    version: 1.2.15(svelte@4.2.12)(typescript@5.4.4)
   '@jill64/npm-demo-layout':
     specifier: 1.0.154
     version: 1.0.154(@sveltejs/kit@2.5.5)(svelte@4.2.12)
@@ -1084,10 +1084,10 @@ packages:
       }
     dev: true
 
-  /@jill64/eslint-config-svelte@1.2.14(svelte@4.2.12)(typescript@5.4.4):
+  /@jill64/eslint-config-svelte@1.2.15(svelte@4.2.12)(typescript@5.4.4):
     resolution:
       {
-        integrity: sha512-/pqg6Ki8hYwpairjZH1UDxJsNTooHs38haZ4zowXE/oZQXs2cKa7W7qj7uD2AejbZBfzhDg1Z2mu5JEzYIdzSQ==
+        integrity: sha512-ifZ4ngtTHz4YHfLJVbkvX6vRTuZOF8B2T/hFwNqKiEjuOsE9PJXumucpgQSix23gfihyLYgDom6D6Lvtl1asrw==
       }
     peerDependencies:
       svelte: ^4.0.0
@@ -1101,7 +1101,7 @@ packages:
       eslint-plugin-deprecation: 2.0.0(eslint@8.57.0)(typescript@5.4.4)
       eslint-plugin-svelte: 2.35.1(eslint@8.57.0)(svelte@4.2.12)
       svelte: 4.2.12
-      svelte-eslint-parser: 0.33.1(svelte@4.2.12)
+      svelte-eslint-parser: 0.34.0(svelte@4.2.12)
     transitivePeerDependencies:
       - supports-color
       - ts-node
@@ -2730,7 +2730,7 @@ packages:
       postcss-selector-parser: 6.0.13
       semver: 7.5.4
       svelte: 4.2.12
-      svelte-eslint-parser: 0.33.1(svelte@4.2.12)
+      svelte-eslint-parser: 0.34.0(svelte@4.2.12)
     transitivePeerDependencies:
       - supports-color
       - ts-node
@@ -4163,14 +4163,14 @@ packages:
       - '@sveltejs/kit'
     dev: true
 
-  /svelte-eslint-parser@0.33.1(svelte@4.2.12):
+  /svelte-eslint-parser@0.34.0(svelte@4.2.12):
     resolution:
       {
-        integrity: sha512-vo7xPGTlKBGdLH8T5L64FipvTrqv3OQRx9d2z5X05KKZDlF4rQk8KViZO4flKERY+5BiVdOh7zZ7JGJWo5P0uA==
+        integrity: sha512-jOozxWbHVtIFt6fvettJK9T9aK1AyrcWBJzqcjqJxkr7QfgMYWjHNVlG/qFFOr72cw8mUVS/D/8BO6HlPEtNug==
       }
     engines: { node: ^12.22.0 || ^14.17.0 || >=16.0.0 }
     peerDependencies:
-      svelte: ^3.37.0 || ^4.0.0
+      svelte: ^3.37.0 || ^4.0.0 || ^5.0.0-next.94
     peerDependenciesMeta:
       svelte:
         optional: true
