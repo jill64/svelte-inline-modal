@@ -26,7 +26,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-inline-modal.git",
-    "image": "https://opengraph.githubassets.com/b1ef90960cbe6d88d73df1a1bd3a5e86d42477701b21473a9afde723dd3c1084/jill64/svelte-inline-modal"
+    "image": "https://opengraph.githubassets.com/e40d1af8587b78cd82fc754959ac500f410bf244d8729fb1173427c14a872060/jill64/svelte-inline-modal"
   },
   "keywords": [
     "inline",
@@ -51,7 +51,7 @@
   "devDependencies": {
     "@jill64/eslint-config-svelte": "1.2.24",
     "@jill64/npm-demo-layout": "1.0.188",
-    "@jill64/playwright-config": "2.2.6",
+    "@jill64/playwright-config": "2.3.0",
     "@jill64/prettier-config": "1.0.0",
     "@jill64/universal-sanitizer": "1.2.10",
     "@playwright/test": "1.43.1",
