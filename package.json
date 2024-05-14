@@ -26,7 +26,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-inline-modal.git",
-    "image": "https://opengraph.githubassets.com/053eb1da801f32f798c907a6751a4905fb60133f741732bfcc0c5967b28b33ab/jill64/svelte-inline-modal"
+    "image": "https://opengraph.githubassets.com/4e4fd500c8e2242aa0c2944d17e994a78d1cc37029a6ba4f20ce100758f95d1e/jill64/svelte-inline-modal"
   },
   "keywords": [
     "inline",
@@ -58,7 +58,7 @@
     "@jill64/sentry-sveltekit-cloudflare": "1.7.12",
     "@sveltejs/adapter-cloudflare": "4.4.0",
     "@sveltejs/kit": "2.5.8",
-    "svelte": "4.2.16",
+    "svelte": "4.2.17",
     "typescript": "5.4.5",
     "vite": "5.2.11",
     "@sveltejs/vite-plugin-svelte": "3.1.0"
