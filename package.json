@@ -56,7 +56,7 @@
     "@jill64/universal-sanitizer": "1.2.13",
     "@playwright/test": "1.44.1",
     "@jill64/sentry-sveltekit-cloudflare": "1.7.14",
-    "@sveltejs/adapter-cloudflare": "4.4.0",
+    "@sveltejs/adapter-cloudflare": "4.4.1",
     "@sveltejs/kit": "2.5.10",
     "svelte": "4.2.18",
     "typescript": "5.4.5",
