@@ -1,6 +1,6 @@
 {
   "name": "svelte-inline-modal",
-  "version": "1.1.19",
+  "version": "1.1.20",
   "description": "🪟 Simple Modal on the Fly",
   "type": "module",
   "main": "dist/index.js",
@@ -26,7 +26,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-inline-modal.git",
-    "image": "https://opengraph.githubassets.com/9927fe41a77298d3371d538541c1928bd91a499588a46d1a6afda6d3d56434e6/jill64/svelte-inline-modal"
+    "image": "https://opengraph.githubassets.com/69322da65e292254363015ca13af417ddd420bb619464b641e8af54606d3dce5/jill64/svelte-inline-modal"
   },
   "keywords": [
     "inline",
@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "@jill64/eslint-config-svelte": "1.2.37",
-    "@jill64/npm-demo-layout": "1.0.215",
+    "@jill64/npm-demo-layout": "1.0.216",
     "@jill64/playwright-config": "2.3.1",
     "@jill64/prettier-config": "1.0.0",
     "@jill64/universal-sanitizer": "1.2.13",
