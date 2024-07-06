@@ -29,8 +29,8 @@ importers:
         specifier: 1.45.1
         version: 1.45.1
       '@sveltejs/adapter-cloudflare':
-        specifier: 4.6.0
-        version: 4.6.0(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.3(@types/node@20.11.27)))(svelte@4.2.18)(vite@5.3.3(@types/node@20.11.27)))(wrangler@3.34.1(@cloudflare/workers-types@4.20231121.0))
+        specifier: 4.6.1
+        version: 4.6.1(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.3(@types/node@20.11.27)))(svelte@4.2.18)(vite@5.3.3(@types/node@20.11.27)))(wrangler@3.34.1(@cloudflare/workers-types@4.20231121.0))
       '@sveltejs/kit':
         specifier: 2.5.18
         version: 2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.3(@types/node@20.11.27)))(svelte@4.2.18)(vite@5.3.3(@types/node@20.11.27))
@@ -1038,10 +1038,10 @@ packages:
       }
     engines: { node: '>=8' }
 
-  '@sveltejs/adapter-cloudflare@4.6.0':
+  '@sveltejs/adapter-cloudflare@4.6.1':
     resolution:
       {
-        integrity: sha512-7HyL1HW7C1FjECnqBhRDWNN2D2A3ub7UpqGXnz42sKSiOPuA8ni2cc1hQ+N+g8NT6pJ4eE1/hrKQQJGgwT6GIg==
+        integrity: sha512-wENN4un6VC7kWLXyIcPX1VPpjyTxGEenEcaLsLCci0fuLZRT0Gsx+g0eV1k1IA+NznKkxd06XxfcqY2xhYDu/A==
       }
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
@@ -3470,7 +3470,7 @@ snapshots:
     dependencies:
       '@sentry/types': 7.76.0
 
-  '@sveltejs/adapter-cloudflare@4.6.0(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.3(@types/node@20.11.27)))(svelte@4.2.18)(vite@5.3.3(@types/node@20.11.27)))(wrangler@3.34.1(@cloudflare/workers-types@4.20231121.0))':
+  '@sveltejs/adapter-cloudflare@4.6.1(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.3(@types/node@20.11.27)))(svelte@4.2.18)(vite@5.3.3(@types/node@20.11.27)))(wrangler@3.34.1(@cloudflare/workers-types@4.20231121.0))':
     dependencies:
       '@cloudflare/workers-types': 4.20231121.0
       '@sveltejs/kit': 2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.3(@types/node@20.11.27)))(svelte@4.2.18)(vite@5.3.3(@types/node@20.11.27))
