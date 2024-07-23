@@ -1,6 +1,6 @@
 {
   "name": "svelte-inline-modal",
-  "version": "1.1.21",
+  "version": "1.1.22",
   "description": "🪟 Simple Modal on the Fly",
   "type": "module",
   "main": "dist/index.js",
@@ -26,7 +26,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-inline-modal.git",
-    "image": "https://opengraph.githubassets.com/2557d7c41c19f026612ef376e15de326bc32400f4171a719532fbd23a305e8d0/jill64/svelte-inline-modal"
+    "image": "https://opengraph.githubassets.com/a98db2e7032ce3d758b7eb95dbf2adc1d681f0da8cbac68ee89eecec8ff9c9db/jill64/svelte-inline-modal"
   },
   "keywords": [
     "inline",
@@ -59,7 +59,7 @@
     "@sveltejs/adapter-cloudflare": "4.6.1",
     "@sveltejs/kit": "2.5.18",
     "svelte": "4.2.18",
-    "typescript": "5.5.3",
+    "typescript": "5.5.4",
     "vite": "5.3.4",
     "@sveltejs/vite-plugin-svelte": "3.1.1"
   },
