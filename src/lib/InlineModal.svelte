@@ -1,9 +1,19 @@
 <script lang="ts">
-  export let onClose: () => unknown = () => {}
+  import type { Snippet } from 'svelte'
+
+  let {
+    onclose = () => {},
+    button,
+    menu,
+  }: {
+    onclose: () => unknown
+    button: Snippet<[typeof open]>
+    menu: Snippet<[typeof close]>
+  } = $props()
 
   const close = () => {
     if (dialog?.open) {
-      onClose()
+      onclose()
     }
     dialog?.close()
   }
@@ -15,11 +25,15 @@
   let dialog: HTMLDialogElement | undefined
 </script>
 
-<slot {open} />
-<!-- svelte-ignore a11y-click-events-have-key-events -->
-<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-<dialog bind:this={dialog} on:click|self={close}>
-  <slot name="menu" {close} />
+{@render button(open)}
+<!-- svelte-ignore a11y_click_events_have_key_events -->
+<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
+<dialog bind:this={dialog} onclick={e => {
+    if (e.target === dialog) {
+      close()
+    }
+  }}>
+  {@render menu(close)}
 </dialog>
 
 <style>
