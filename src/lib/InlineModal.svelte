@@ -4,7 +4,7 @@
   let {
     onclose = () => {},
     button,
-    menu,
+    menu
   }: {
     onclose: () => unknown
     button: Snippet<[typeof open]>
@@ -28,11 +28,14 @@
 {@render button(open)}
 <!-- svelte-ignore a11y_click_events_have_key_events -->
 <!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
-<dialog bind:this={dialog} onclick={e => {
+<dialog
+  bind:this={dialog}
+  onclick={(e) => {
     if (e.target === dialog) {
       close()
     }
-  }}>
+  }}
+>
   {@render menu(close)}
 </dialog>
 

@@ -30,7 +30,11 @@
     {#snippet menu(close)}
       <div slot="menu">
         <h2>It's Modal Menu</h2>
-        <InlineModal onclose={onCloseModal} button={nested_button} menu={nested_menu} />
+        <InlineModal
+          onclose={onCloseModal}
+          button={nested_button}
+          menu={nested_menu}
+        />
         <input placeholder="Input Form" />
         <button onclick={close}>Close</button>
       </div>
