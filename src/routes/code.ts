@@ -7,34 +7,32 @@ export const code = /* html */ `
   }
 </script>
 
-{#snippet button(open)}
-  <button onclick={open}>Open</button>
-{/snippet}
-
-{#snippet nested_button(open)}
-  <button onclick={open}>Nested Modal Open</button>
-{/snippet}
-
-{#snippet nested_menu(close)}
-  <div slot="menu" let:close>
-    <h2>It's Nested Modal Menu</h2>
-    <ol>
-      <li>First</li>
-      <li>Second</li>
-      <li>Third</li>
-    </ol>
-    <button onclick={close}>Close Nested Modal</button>
+<InlineModal onClose={onCloseModal}>
+  {#snippet button(open)}
+    <button onclick={open}>Open</button>
+  {/snippet}
+  {#snippet menu(close)}
+  <div>
+    <h2>It's Modal Menu</h2>
+    <InlineModal onClose={onCloseModal}>
+      {#snippet button(open)}
+        <button onclick={open}>Nested Modal Open</button>
+      {/snippet}
+      {#snippet menu(close)}
+        <div>
+          <h2>It's Nested Modal Menu</h2>
+          <ol>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+          </ol>
+          <button onclick={close}>Close Nested Modal</button>
+        </div>
+      {/snippet}
+    </InlineModal>
+    <input placeholder="Input Form" />
+    <button on:click={close}>Close</button>
   </div>
-{/snippet}
-
-{#snippet menu(close)}
-<div slot="menu">
-  <h2>It's Modal Menu</h2>
-  <InlineModal onClose={onCloseModal} button={nested_button} menu={nested_menu} />
-  <input placeholder="Input Form" />
-  <button on:click={close}>Close</button>
-</div>
-{/snippet}
-
-<InlineModal onClose={onCloseModal} {button} {menu} />
+  {/snippet}
+</InlineModal>
 `.trim()

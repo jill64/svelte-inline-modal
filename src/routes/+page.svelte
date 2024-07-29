@@ -10,36 +10,34 @@
 
 <main>
   <span>
-    {#snippet button(open)}
-      <button onclick={open}>Open</button>
-    {/snippet}
-    {#snippet nested_button(open)}
-      <button onclick={open}>Nested Modal Open</button>
-    {/snippet}
-    {#snippet nested_menu(close)}
-      <div slot="menu">
-        <h2>It's Nested Modal Menu</h2>
-        <ol>
-          <li>First</li>
-          <li>Second</li>
-          <li>Third</li>
-        </ol>
-        <button onclick={close}>Close Nested Modal</button>
-      </div>
-    {/snippet}
-    {#snippet menu(close)}
-      <div slot="menu">
-        <h2>It's Modal Menu</h2>
-        <InlineModal
-          onclose={onCloseModal}
-          button={nested_button}
-          menu={nested_menu}
-        />
-        <input placeholder="Input Form" />
-        <button onclick={close}>Close</button>
-      </div>
-    {/snippet}
-    <InlineModal onclose={onCloseModal} {button} {menu} />
+    <InlineModal onclose={onCloseModal}>
+      {#snippet button(open)}
+        <button onclick={open}>Open</button>
+      {/snippet}
+      {#snippet menu(close)}
+        <div>
+          <h2>It's Modal Menu</h2>
+          <InlineModal onclose={onCloseModal}>
+            {#snippet button(open)}
+              <button onclick={open}>Nested Modal Open</button>
+            {/snippet}
+            {#snippet menu(close)}
+              <div>
+                <h2>It's Nested Modal Menu</h2>
+                <ol>
+                  <li>First</li>
+                  <li>Second</li>
+                  <li>Third</li>
+                </ol>
+                <button onclick={close}>Close Nested Modal</button>
+              </div>
+            {/snippet}
+          </InlineModal>
+          <input placeholder="Input Form" />
+          <button onclick={close}>Close</button>
+        </div>
+      {/snippet}
+    </InlineModal>
   </span>
   <span>
     <HighlightSvelte {code} />
