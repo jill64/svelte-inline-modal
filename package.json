@@ -1,6 +1,6 @@
 {
   "name": "svelte-inline-modal",
-  "version": "1.1.24",
+  "version": "1.1.25",
   "description": "🪟 Simple Modal on the Fly",
   "type": "module",
   "main": "dist/index.js",
@@ -26,7 +26,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-inline-modal.git",
-    "image": "https://opengraph.githubassets.com/cb24157dd3841a3dde2fb96ca7d57ceaf7e79f2b08814b92a57b8fe323de4571/jill64/svelte-inline-modal"
+    "image": "https://opengraph.githubassets.com/5fa7ad5ab8c54d85c8074ce7885e1f9c1b52c18eb286963589b5a7dbde23a76c/jill64/svelte-inline-modal"
   },
   "keywords": [
     "inline",
