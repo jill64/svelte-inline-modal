@@ -63,6 +63,5 @@
     "typescript": "5.7.2",
     "vite": "5.4.11",
     "@sveltejs/vite-plugin-svelte": "3.1.2"
-  },
-  "prettier": "@jill64/prettier-config"
+  }
 }
