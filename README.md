@@ -39,7 +39,7 @@ Unlike most modal libraries that provide a common component at the root, this li
   {#snippet button(open)}
     <button onclick={open}>Open</button>
   {/snippet}
-  {#snippet button(close)}
+  {#snippet menu(close)}
     <div>
       <!-- Your Modal Contents -->
       <button onclick={close}>Close</button>
