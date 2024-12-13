@@ -35,12 +35,16 @@ Unlike most modal libraries that provide a common component at the root, this li
   }
 </script>
 
-<InlineModal onClose={onCloseModal} let:open>
-  <button on:click={open}>Open</button>
-  <div slot="menu" let:close>
-    <!-- Your Modal Contents -->
-    <button on:click={close}>Close</button>
-  </div>
+<InlineModal onClose={onCloseModal}>
+  {#snippet button(open)}
+    <button onclick={open}>Open</button>
+  {/snippet}
+  {#snippet menu(close)}
+    <div>
+      <!-- Your Modal Contents -->
+      <button onclick={close}>Close</button>
+    </div>
+  {/snippet}
 </InlineModal>
 ```
 
