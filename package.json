@@ -62,6 +62,6 @@
     "svelte": "5.15.0",
     "typescript": "5.7.2",
     "vite": "6.0.5",
-    "@sveltejs/vite-plugin-svelte": "5.0.2"
+    "@sveltejs/vite-plugin-svelte": "5.0.3"
   }
 }
