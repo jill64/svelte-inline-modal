@@ -6,7 +6,7 @@
     button,
     menu
   }: {
-    onclose: () => unknown
+    onclose?: () => unknown
     button: Snippet<[typeof open]>
     menu: Snippet<[typeof close]>
   } = $props()
