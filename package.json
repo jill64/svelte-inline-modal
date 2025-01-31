@@ -26,7 +26,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-inline-modal.git",
-    "image": "https://opengraph.githubassets.com/7f6c694879bb1fda8857df2bbf553bc0afff846f8a290867e43ca2ec1c0a1cb0/jill64/svelte-inline-modal"
+    "image": "https://opengraph.githubassets.com/9a65d0966fe0b0a955bccac02568e50a0cdb084dd0c954a42c48f55bdaa69159/jill64/svelte-inline-modal"
   },
   "keywords": [
     "inline",
@@ -54,7 +54,7 @@
     "@jill64/npm-demo-layout": "2.0.15",
     "prettier-plugin-svelte": "3.3.3",
     "@jill64/playwright-config": "2.4.2",
-    "@jill64/universal-sanitizer": "1.4.0",
+    "@jill64/universal-sanitizer": "1.4.1",
     "@sveltejs/package": "2.3.9",
     "@playwright/test": "1.50.0",
     "@jill64/sentry-sveltekit-cloudflare": "2.0.6",
