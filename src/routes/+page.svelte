@@ -4,6 +4,7 @@
   import { code } from './code'
 
   const onCloseModal = () => {
+    // eslint-disable-next-line no-undef
     console.log('Modal Closed')
   }
 </script>
